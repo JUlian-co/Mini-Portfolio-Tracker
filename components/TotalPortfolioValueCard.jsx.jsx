@@ -45,6 +45,7 @@ export default function TotalPortfolioValueCard() {
         />
         <Tooltip
           formatter={(value, name) => [`${chartDataTypeCurrent === "value" ? '$' : ''}${value.toFixed(2)}`, name]}
+          defaultIndex={0}
         />
       </PieChart>
     </div>
