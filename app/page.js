@@ -23,7 +23,8 @@ export default function Home() {
       <input
         type="text"
         onChange={(e) => setAddress(e.target.value)}
-        placeholder="0x81C75741Db32d6329127bd499a33e562462BcF2B"
+        placeholder="0xd8da6bf26964af9d7eed9e03e53415d37aa96045"
+        value={address}
         className="py-2 w-full min-w-[156px] max-w-3xs px-4 ring-1 ring-[#555] rounded-xl bg-[#555]/30 focus:outline-none focus:bg-[#555]/50 focus:ring-emerald-300"
       />
       <select
