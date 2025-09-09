@@ -11,7 +11,7 @@ export default function Home() {
   const { data, loading, selectedNetwork, setSelectedNetwork, getTokens, setAddress, address } = useTokens();
 
   useEffect(() => {
-    setAddress("0xd8da6bf26964af9d7eed9e03e53415d37aa96045");
+    setAddress("0xd8da6bf26964af9d7eed9e03e53415d37aa96045"); // Vitaliks address
   }, []);
 
   return (

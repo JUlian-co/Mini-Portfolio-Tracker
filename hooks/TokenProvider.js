@@ -31,7 +31,7 @@ export function TokenProvider({ children }) {
 
     const apiNetworks = getApiNetworkValue();
     const url =
-      "https://api.g.alchemy.com/data/v1/WaukNL4-3sMiaLil90xTUKQ7Nf2JiqYE/assets/tokens/by-address";
+      `https://api.g.alchemy.com/data/v1/${process.env.ALCHEMY_API_KEY}/assets/tokens/by-address`;
 
     const options = {
       method: "POST",
